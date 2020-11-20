@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="631832" started-at="2020-11-15T14:59:42Z" finished-at="2020-11-15T15:10:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="631832" started-at="2020-11-15T14:59:42Z" finished-at="2020-11-15T15:10:13Z">
+      <class name="com.gomechanic.Tests.CarServiceDetailsTest">
+        <test-method status="PASS" signature="beforeEveryTestStarts()[pri:0, instance:com.gomechanic.Tests.CarServiceDetailsTest@4501b7af]" name="beforeEveryTestStarts" is-config="true" duration-ms="9902" started-at="2020-11-15T20:32:09Z" finished-at="2020-11-15T20:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTestStarts -->
+        <test-method status="PASS" signature="selectBasicServicePlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.CarServiceDetailsTest@4501b7af]" name="selectBasicServicePlan" duration-ms="51811" started-at="2020-11-15T20:32:18Z" description="Validate user is able to select &#039;Car Details&#039;" finished-at="2020-11-15T20:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.CarServiceDetailsTest.selectBasicServicePlan(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBasicServicePlan -->
+        <test-method status="PASS" signature="afterEveryTestEnds(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.CarServiceDetailsTest@4501b7af]" name="afterEveryTestEnds" is-config="true" duration-ms="1806" started-at="2020-11-15T20:33:10Z" finished-at="2020-11-15T20:33:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectBasicServicePlan status=SUCCESS method=CarServiceDetailsTest.selectBasicServicePlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.CarServiceDetailsTest@4501b7af] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.CarServiceDetailsTest.selectBasicServicePlan(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTestEnds -->
+      </class> <!-- com.gomechanic.Tests.CarServiceDetailsTest -->
+      <class name="com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest">
+        <test-method status="PASS" signature="beforeEveryTestStarts()[pri:0, instance:com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest@61832929]" name="beforeEveryTestStarts" is-config="true" duration-ms="12096" started-at="2020-11-15T20:29:42Z" finished-at="2020-11-15T20:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTestStarts -->
+        <test-method status="PASS" signature="selectAmaronPlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest@61832929]" name="selectAmaronPlan" duration-ms="133372" started-at="2020-11-15T20:29:54Z" description="Validate user is able to select &#039;Amaron Batterie&#039; from &#039;Batteries Section&#039;" finished-at="2020-11-15T20:32:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest.selectAmaronPlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAmaronPlan -->
+        <test-method status="PASS" signature="afterEveryTestEnds(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest@61832929]" name="afterEveryTestEnds" is-config="true" duration-ms="1478" started-at="2020-11-15T20:32:07Z" finished-at="2020-11-15T20:32:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAmaronPlan status=SUCCESS method=AddLightAndFitMentsPlanToCartTest.selectAmaronPlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest@61832929] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest.selectAmaronPlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTestEnds -->
+      </class> <!-- com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest -->
+      <class name="com.gomechanic.Tests.AddPeriodicServicePlantToCartTest">
+        <test-method status="PASS" signature="beforeEveryTestStarts()[pri:0, instance:com.gomechanic.Tests.AddPeriodicServicePlantToCartTest@5b275dab]" name="beforeEveryTestStarts" is-config="true" duration-ms="10438" started-at="2020-11-15T20:35:36Z" finished-at="2020-11-15T20:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTestStarts -->
+        <test-method status="PASS" signature="selectBasicServicePlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddPeriodicServicePlantToCartTest@5b275dab]" name="selectBasicServicePlan" duration-ms="125495" started-at="2020-11-15T20:35:46Z" description="Validate user is able to select &#039;Basic Service&#039; from &#039;Periodic Service&#039;" finished-at="2020-11-15T20:37:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddPeriodicServicePlantToCartTest.selectBasicServicePlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBasicServicePlan -->
+        <test-method status="PASS" signature="afterEveryTestEnds(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddPeriodicServicePlantToCartTest@5b275dab]" name="afterEveryTestEnds" is-config="true" duration-ms="1185" started-at="2020-11-15T20:37:52Z" finished-at="2020-11-15T20:37:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectBasicServicePlan status=SUCCESS method=AddPeriodicServicePlantToCartTest.selectBasicServicePlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddPeriodicServicePlantToCartTest@5b275dab] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddPeriodicServicePlantToCartTest.selectBasicServicePlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTestEnds -->
+      </class> <!-- com.gomechanic.Tests.AddPeriodicServicePlantToCartTest -->
+      <class name="com.gomechanic.Tests.AddACServicePlanToCartTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.gomechanic.Tests.AddACServicePlanToCartTest@8bd1b6a]" name="beforeSuite" is-config="true" duration-ms="1028" started-at="2020-11-15T20:29:41Z" finished-at="2020-11-15T20:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeEveryTestStarts()[pri:0, instance:com.gomechanic.Tests.AddACServicePlanToCartTest@8bd1b6a]" name="beforeEveryTestStarts" is-config="true" duration-ms="9491" started-at="2020-11-15T20:37:53Z" finished-at="2020-11-15T20:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTestStarts -->
+        <test-method status="PASS" signature="selectRegularACServicePlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddACServicePlanToCartTest@8bd1b6a]" name="selectRegularACServicePlan" duration-ms="130020" started-at="2020-11-15T20:38:02Z" description="Validate user is able to select &#039;Regular AC Service&#039; from &#039;AC Services&#039;" finished-at="2020-11-15T20:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddACServicePlanToCartTest.selectRegularACServicePlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRegularACServicePlan -->
+        <test-method status="PASS" signature="afterEveryTestEnds(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddACServicePlanToCartTest@8bd1b6a]" name="afterEveryTestEnds" is-config="true" duration-ms="1175" started-at="2020-11-15T20:40:12Z" finished-at="2020-11-15T20:40:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectRegularACServicePlan status=SUCCESS method=AddACServicePlanToCartTest.selectRegularACServicePlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddACServicePlanToCartTest@8bd1b6a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddACServicePlanToCartTest.selectRegularACServicePlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTestEnds -->
+      </class> <!-- com.gomechanic.Tests.AddACServicePlanToCartTest -->
+      <class name="com.gomechanic.Tests.AddBatteriesPlanToCartTest">
+        <test-method status="PASS" signature="beforeEveryTestStarts()[pri:0, instance:com.gomechanic.Tests.AddBatteriesPlanToCartTest@523884b2]" name="beforeEveryTestStarts" is-config="true" duration-ms="9259" started-at="2020-11-15T20:33:12Z" finished-at="2020-11-15T20:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryTestStarts -->
+        <test-method status="PASS" signature="selectAmaronPlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddBatteriesPlanToCartTest@523884b2]" name="selectAmaronPlan" duration-ms="133143" started-at="2020-11-15T20:33:21Z" description="Validate user is able to select &#039;Amaron Batterie&#039; from &#039;Batteries Section&#039;" finished-at="2020-11-15T20:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddBatteriesPlanToCartTest.selectAmaronPlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAmaronPlan -->
+        <test-method status="PASS" signature="afterEveryTestEnds(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddBatteriesPlanToCartTest@523884b2]" name="afterEveryTestEnds" is-config="true" duration-ms="1134" started-at="2020-11-15T20:35:34Z" finished-at="2020-11-15T20:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAmaronPlan status=SUCCESS method=AddBatteriesPlanToCartTest.selectAmaronPlan(java.lang.reflect.Method)[pri:0, instance:com.gomechanic.Tests.AddBatteriesPlanToCartTest@523884b2] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.gomechanic.Tests.AddBatteriesPlanToCartTest.selectAmaronPlan(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTestEnds -->
+      </class> <!-- com.gomechanic.Tests.AddBatteriesPlanToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

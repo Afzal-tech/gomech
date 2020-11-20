@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" thread-count="1">
+    <classes>
+      <class name="com.gomechanic.Tests.AddLightAndFitMentsPlanToCartTest"/>
+      <class name="com.gomechanic.Tests.CarServiceDetailsTest"/>
+      <class name="com.gomechanic.Tests.AddBatteriesPlanToCartTest"/>
+      <class name="com.gomechanic.Tests.AddPeriodicServicePlantToCartTest"/>
+      <class name="com.gomechanic.Tests.AddACServicePlanToCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
