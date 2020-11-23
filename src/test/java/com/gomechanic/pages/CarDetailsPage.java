@@ -244,4 +244,27 @@ public class CarDetailsPage {
         words = pattern.split(vl);
 		return words[2];
 	}
+	public void clickLiveChatCrossIcon() {
+		try {
+		if(!driver.findElement(By.xpath("//span[@class='cc-g0ak cc-hy0f']")).isDisplayed()) {
+		}else {
+			driver.findElement(By.xpath("//span[@class='cc-g0ak cc-hy0f']")).click();
+		}
+		}catch(Exception ex) {
+			driver.findElement(By.xpath("//span[@class='cc-g0ak cc-hy0f']")).click();
+		}
+	}
+	
+	public void clickLiveChatCrossBtn() {
+		try {
+			if(!driver.findElement(By.xpath("//span[@class='cc-1asz']")).isDisplayed()) {
+				System.out.println("Chat Cross Button Not Display");
+			}else {
+				driver.findElement(By.xpath("//span[@class='cc-1asz']")).click();
+			}
+			}catch(Exception ex) {
+				driver.findElement(By.xpath("//span[@class='cc-1asz']")).click();
+				System.out.println("Click chat button successfully");
+			}
+	}
 }

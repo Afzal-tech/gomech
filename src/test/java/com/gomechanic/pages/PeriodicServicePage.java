@@ -28,7 +28,7 @@ public class PeriodicServicePage {
 	}
 	
 	public boolean addBasicService(String service) {
-		String addTocart="//h2[text()='%r']/../../../../..//img[@alt='Add to cart']";
+		String addTocart="//h2[text()='%r']/../../../../..//span[text()='ADD TO CART']";
 		addTocart=addTocart.replaceAll("%r", service);
 		driver.findElement(By.xpath(addTocart)).click();
 		return true;
