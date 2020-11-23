@@ -15,7 +15,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class CarServiceDetailsTest extends BaseTestSuite{
 
 	@Test(description="Validate user is able to select 'Car Details'")
-	public void selectBasicServicePlan(Method method) {
+	public void selectBasicServicePlan(Method method) throws InterruptedException {
 		testLog = extent.startTest(this.getClass().getSimpleName(), method.getAnnotation(Test.class).description());
         String[][] data = excelData.readData("Checkout");
 		
@@ -44,6 +44,9 @@ public class CarServiceDetailsTest extends BaseTestSuite{
 			assertEquals(data[0][3], detailsPage.validateCarFuelType());
 			testLog.log(LogStatus.INFO, "Expected car Fuel Type name: '" + data[0][3] + "' is verified with Actual: '"
 					+ detailsPage.validateCarFuelType() + "'");
+			Thread.sleep(11000);
+			detailsPage.clickLiveChatCrossBtn();
+			Thread.sleep(3000);
 			detailsPage.enterMobileNumber(data[0][4]);
 			detailsPage.clickOnCheckPriceBtn();
 	}

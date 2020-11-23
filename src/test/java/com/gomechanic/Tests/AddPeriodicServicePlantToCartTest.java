@@ -40,6 +40,9 @@ public class AddPeriodicServicePlantToCartTest extends BaseTestSuite{
 			assertEquals(data1[0][3], detailsPage.validateCarFuelType());
 			testLog.log(LogStatus.INFO, "Expected car Fuel Type name: '" + data1[0][3] + "' is verified with Actual: '"
 					+ detailsPage.validateCarFuelType() + "'");
+			Thread.sleep(11000);
+			detailsPage.clickLiveChatCrossBtn();
+			Thread.sleep(3000);
 			detailsPage.enterMobileNumber(data1[0][4]);
 			detailsPage.clickOnCheckPriceBtn();
 				Thread.sleep(12000);
