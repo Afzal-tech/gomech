@@ -8,6 +8,13 @@
       <class name="com.gomechanic.Tests.AddBatteriesPlanToCartTest"/>
       <class name="com.gomechanic.Tests.AddPeriodicServicePlantToCartTest"/>
       <class name="com.gomechanic.Tests.AddACServicePlanToCartTest"/>
+      <class name="com.gomechanic.Tests.AddTyresAndWheelCarePlanToCartTest"/>
+      <class name="com.gomechanic.Tests.AddCarSpaAndCleaningPlanToCartTest"/>
+      <class name="com.gomechanic.Tests.AddCustomServicesPlanToCartTest"/>
+      <class name="com.gomechanic.Tests.AddDentingAndPaintingPlanToCartTest"/>
+      <class name="com.gomechanic.Tests.AddDetailingServicesPlanToCartTest"/>
+      <class name="com.gomechanic.Tests.InsuranceClaimServicePlanToCartTest"/>
+      <class name="com.gomechanic.Tests.AddWindShieldsAndGlass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
