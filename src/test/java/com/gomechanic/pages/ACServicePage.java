@@ -50,6 +50,7 @@ public class ACServicePage {
 			testLog.log(LogStatus.INFO, "User is able to Click Add To Cart Button");
 		}catch(Exception ex) {
 			Assert.fail("Unable to click Add To Cart");
+			
 		}
 	}
 	}
